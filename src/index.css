@@ -1,0 +1,117 @@
+body {
+  background-color: hsla(35, 63%, 95%, 0.795);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+input {
+  font-size: 1.6rem;
+  border-radius: 10px;
+  border: 2px solid rgba(93, 90, 90, 0.882);
+  padding: 5px;
+  color: rgb(103, 101, 101);
+}
+
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 6px;
+  background-color: rgb(240, 234, 234);
+  margin-bottom: 5px;
+  border: 1 solid hsla(0, 0%, 86%, 0.905);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* to-do-list container */
+.container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 100px;
+}
+
+.text {
+  flex: 1;
+}
+
+
+/* buttons */
+button {
+  font-size: 1.7rem;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: auto 10px;
+  color: white;
+}
+
+.btn {
+  background-color: rgb(7, 164, 7);
+}
+.btn:hover {
+  background-color: rgb(8, 148, 8);
+
+}
+
+.delete-btn {
+  background-color: rgb(230, 38, 38);
+}
+.delete-btn:hover {
+  background-color: rgb(193, 31, 31);
+
+}
+
+.up-btn {
+  background-color: aquamarine;
+}
+.up-btn:hover {
+  background-color: rgb(80, 210, 167);
+
+}
+.down-btn {
+  background-color: aquamarine;
+}
+.down-btn:hover {
+  background-color: rgb(80, 210, 167);
+
+}
+
+.delete-btn, .up-btn, .down-btn {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  input {
+    margin: 10px auto;
+  }
+
+  button{
+    margin: 10px auto;
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: 1.4rem;
+  
+  }
+
+  .delete-btn, .up-btn, .down-btn {
+    font-size: 1rem;
+  }
+}
